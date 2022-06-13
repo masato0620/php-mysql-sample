@@ -21,7 +21,7 @@ if(!$link){
 }
 
 //SQL文を生成
-$query = "SELECT Code, Name ,Continent,Region,Indepyear,SurfaceArea  country WHERE Name LIKE '%{$name}%' ORDER BY Code LIMIT 30";
+$query = "SELECT Code, Name ,Continent,Region,Indepyear,SurfaceArea FROM country WHERE Name LIKE '%{$name}%' ORDER BY Code LIMIT 30";
 if($submit === "search"){
   $wheres = [];
     if($name !== ""){
