@@ -57,7 +57,7 @@ if($submit === "search"){
 }
 
 
-//SQL文を実行
+//SQL文を実行、結果を変数に格納
 $result = mysqli_query($link, $query);
 
 //DBコネクションを切断
