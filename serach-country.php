@@ -110,9 +110,9 @@ mysqli_close($link);
       <label for="indepyear_min" class="col-sm-2 col-form-label">IndepYear</label>
       <div class="col-sm-10">
       <div class="input-group">
-          <input type="number" class="form-control" id="indepyear_min"  value="<?php echo $indepyear_min; ?>">
+          <input type="number" class="form-control" id="indepyear_min" name="indepyear_min" value="<?php echo $indepyear_min; ?>">
           <div class="input-group-text">~</div>
-          <input type="number" class="form-control" id="indepyear_max"  value="<?php echo $indepyear_max; ?>">
+          <input type="number" class="form-control" id="indepyear_max" name="indepyear_max"  value="<?php echo $indepyear_max; ?>">
         </div>
     </div>
     </div>
@@ -120,9 +120,9 @@ mysqli_close($link);
       <label for="surfacearea" class="col-sm-2 col-form-label">SurfaceArea</label>
       <div class="col-sm-10">
       <div class="input-group">
-          <input type="number" step="0.01" class="form-control" id="surfacearea_min"  value="<?php echo $surfacearea_min; ?>">
+          <input type="number" step="0.01" class="form-control" id="surfacearea_min" name="surfacearea_min"  value="<?php echo $surfacearea_min; ?>">
           <div class="input-group-text">~</div>
-          <input type="number" class="form-control" id="surfacearea_max"  value="<?php echo $surfacearea_max; ?>">
+          <input type="number"  step="0.01" class="form-control" id="surfacearea_max" name="surfacearea_max"  value="<?php echo $surfacearea_max; ?>">
         </div>
     </div>
     </div>
